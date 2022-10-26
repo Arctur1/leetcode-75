@@ -12,6 +12,6 @@ func TestPreorder(t *testing.T) {
 }
 
 func TestLevelOrder(t *testing.T) {
-	root := create_binary_tree([]interface{}{3, 9, 20, nil, nil, 15, 7})
+	root := Create_binary_tree([]interface{}{3, 9, 20, nil, nil, 15, 7})
 	assert.Equal(t, levelOrder(root), [][]int{{3}, {9, 20}, {15, 7}})
 }

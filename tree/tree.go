@@ -42,7 +42,7 @@ func preorder(root *Node) []int {
 	return res
 }
 
-func create_binary_tree(arr []interface{}) *TreeNode {
+func Create_binary_tree(arr []interface{}) *TreeNode {
 	root := &TreeNode{arr[0].(int), nil, nil}
 	nodes := []*TreeNode{root}
 	arr = arr[1:]
